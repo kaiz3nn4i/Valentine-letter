@@ -106,7 +106,7 @@ body {
 .main-greet {
   text-align: center;
   margin-bottom: 1rem;
-  margin-top: -30px;
+  margin-top: 50px;
 }
 
 .main-greet h2 {
@@ -120,7 +120,7 @@ body {
   color: #ff4081;
   font-size: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: -5px;
+  margin-bottom: 50px;
   margin-top: 100px;
 }
 

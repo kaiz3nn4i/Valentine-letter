@@ -4,7 +4,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fce4ec;
+  
+  background:
+        linear-gradient(rgba(255, 201, 236, 0.916), rgba(249, 220, 238, 0.714)),
+        url('me&bebi2.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Times New Roman', serif;
 }
 
@@ -106,22 +111,22 @@ body {
 .main-greet {
   text-align: center;
   margin-bottom: 1rem;
-  margin-top: 50px;
+  margin-top: -100px;
 }
 
 .main-greet h2 {
   font-family: 'Dancing Script', cursive;
   color: #ff4081;
-  font-size: 3.5rem;
+  font-size: 6rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.main-greet h5 {
+.main-greet h4 {
   color: #ff4081;
   font-size: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .request {
@@ -133,22 +138,21 @@ body {
   color: #ff4081;
   font-size: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: -20px;
 }
 
 .envelope {
   position: relative;
-  width: 350px;
-  height: 200px;
-  background: #fff;
+  width: 130px;
+  height: 50px;
+  background: #fc4d87;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   cursor: pointer;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-top: -60px;
   
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 30px;
   transition: transform 0.3s ease; 
   
 } 
@@ -161,7 +165,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #fc4d87;
   border: 2px solid #ffcdd2;
   display: flex;
   justify-content: center;
@@ -171,7 +175,7 @@ body {
 
 .flap {
   position: absolute;
-  background: #fff;
+  background: #fc4d87;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -200,8 +204,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;  /* increased from 3rem */
-  color: #ff4081;
+  font-size: 1rem;  /* increased from 3rem */
+  color: #fff9f9;
   z-index: 4;
   transition: opacity 0.3s;
 }
